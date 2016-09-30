@@ -1,0 +1,99 @@
+th {
+ 
+ height: 10px;
+ background-color: lightgray;
+ padding-left:8px;
+ vertical-align: bottom;
+ text-align:left;
+ border: 3px solid #BCBCBC ;
+ border-bottom
+ 
+}
+input{
+
+	width: 95px;
+	height: 40px;
+}
+td {
+	padding-top: 8px;
+	padding-left:8px;
+    height: 50px;
+    width: 200px;
+    text-align:left;
+    border: 3px solid #BCBCBC ;
+}
+
+table {
+	
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+	
+}
+
+head{
+	background-color: yellow;
+}
+
+h7 {
+	
+    color: darkred;
+    font-size: 25;
+    font-weight: bold;
+}
+
+body {
+    background-color: white ;
+}
+
+
+	.space{
+    padding: 2.5px;
+  }
+
+	.boxed {
+  border: 1px solid  #ACCEE6;
+  background-color: #E3E4F4;
+  height:700px;
+   width: 1000px;
+   padding: 10px;
+   padding-top: 25px;
+}
+
+
+
+
+h2{
+	padding-top: 10px;
+	
+	font-size: 100%;
+	font-weight : normal;
+}
+
+h8{
+	color: black;
+	font-size:120%;
+
+	
+}
+
+.btn {
+  border-radius: 8px;
+  margin-right: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  background: #c40000;
+  padding: 8px 10px;
+  
+  cursor:pointer;
+  text-align: center;
+  /*width: 200px;*/
+  display: inline-block;
+  
+  bottom : 0;
+  position: relative;
+  float: right;
+  bottom: -95px;
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+        
+        <title> Grade Calculator </title>
+       
+    </head>
+    <body>
+    <h1>Grade Calculator</h1>
+    <br>
+    <div class = "boxed">
+       <h7>Activities</h7>
+       
+       <br>
+        <h2>Give grades to the numberic activities:</h2>
+        <br>
+    <table border = "2" cellspacing = "10">
+    <tr>
+        <th> Name </th>
+        <th> Short Name </th>
+        <th> Weight </th>
+        <th> Grade </th>
+        <th> Percent </th>
+    </tr>
+    <tr>
+        <td> Activity 1 </td>
+        <td> A2 </td>
+        <td class="gradeWeightWrapper"><input class="gradeWeight" type="number" min="0" id="weight"></td>
+        <td class="gradePercentWrapper"> 
+          <input class="gradePercent grade" type="number" id="grade"> <h8>/</h8> 
+          <div class="space"> </div>
+          <input class="gradePercent gradeOutOf" type="number" id="gradeOutOf">
+        </td>
+        <td class="outputWrapper">
+            <output class="output" id="o1"></output>
+        </td>
+    </tr>
+
+    <tr>
+        <td> Activity 2 </td>
+        <td> A2 </td>
+        <td class="gradeWeightWrapper"><input class="gradeWeight" type="number" min="0" id="weight"></td>
+        <td class="gradePercentWrapper"> <input type="number" class="gradePercent grade" id="grade"> <h8>/</h8> 
+        <div class="space"> </div>
+        <input class="gradePercent gradeOutOf" type="number" id="gradeOutOf"></td>
+        <td class="outputWrapper">
+            <output class="output" id="o2"></output>
+        </td>
+    </tr>
+
+    <tr>
+        <td> Activity 3 </td>
+        <td> A3 </td>
+        <td class="gradeWeightWrapper"><input class="gradeWeight" type="number" min="0" id="weight"></td>
+        <td class="gradePercentWrapper"> 
+            <input class="gradePercent grade" type="number" id="grade"> <h8>/</h8> 
+            <div class="space"> </div>
+            <input class="gradePercent gradeOutOf" type="number" id="gradeOutOf">
+        </td>
+        <td class="outputWrapper">
+            <output class="output" id="o3"></output>
+        </td>
+    </tr>
+
+    <tr>
+        <td> Activity 4 </td>
+        <td> A4 </td>
+        <td class="gradeWeightWrapper"><input class="gradeWeight" type="number" min="0" id="weight"></td>
+        <td class="gradePercentWrapper"> <input class="gradePercent grade" type="number" id="grade"> <h8>/</h8> 
+            <div class="space"> </div>
+            <input class="gradePercent gradeOutOf" type="number" id="gradeOutOf">
+        </td>
+        <td class="outputWrapper">
+            <output class="output" id="o4"></output>
+        </td>
+    </tr>
+    </table>
+    <br>
+    <br>
+
+    <h7>Result</h7>
+    <p id="score"></p>
+    <div class="btn" id="meanBtn">MEAN</div>
+
+
+    <div class="btn" id="weightedBtn" type="button">WEIGHTED</div>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="calculator.js"></script> 
+
+    </body>
+</html>
